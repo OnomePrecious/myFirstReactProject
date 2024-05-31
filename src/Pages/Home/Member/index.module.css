@@ -1,0 +1,11 @@
+.text{
+    display: flex;
+    justify-content: space-around;
+    /*padding-top: 90px;*/
+}
+.container{
+    display: flex;
+    align-items: center;
+
+}
+

@@ -1,0 +1,10 @@
+.mainContainer > h4{
+    color: darkgreen;
+}
+.imageContainer{
+    display: flex;
+    gap: 45px;
+}
+.imageContainer > p{
+    color: darkgreen;
+}

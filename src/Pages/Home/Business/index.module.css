@@ -1,0 +1,10 @@
+.businessSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 500px;
+
+}
+.businessSection>div>img{
+    margin-left: 500px;
+}
