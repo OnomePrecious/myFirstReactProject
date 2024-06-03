@@ -8,4 +8,9 @@
     align-items: center;
 
 }
+.container > img{
+    padding-bottom: 30px;
+
+
+}
 
