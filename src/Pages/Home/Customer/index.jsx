@@ -10,7 +10,10 @@ import styles from "./index.module.css"
 const Customer = () =>{
     return(
         <>
+            <div className={styles.baseContainer}>
+            <div className={styles.imageContainer}>
             <img src={tim}/>
+
             <div className={styles.mainContainer}>
                 <p>
                     Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
@@ -21,9 +24,11 @@ const Customer = () =>{
                     sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero
                     condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
                 </p>
-                <h4>Tim Smith</h4>
+
+                <h4 className={styles.name}>
+                    Tim Smith</h4>
                 <p>British dragon boat racing association</p>
-            </div>
+
             <div className={styles.imageContainer}>
             <img src={logo7} alt=""/>
             <img src={logo0} alt=""/>
@@ -32,9 +37,12 @@ const Customer = () =>{
             <img src={logo3} alt=""/>
             <img src={logo4} alt=""/>
             <img src={logo5} alt=""/>
-                <p>Meet all customers -></p>
+                <p>Meet all customers => </p>
 
 </div>
+            </div>
+            </div>
+            </div>
         </>
     )
 }

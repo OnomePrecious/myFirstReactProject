@@ -1,10 +1,28 @@
 .businessSection{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-left: 500px;
 
 }
-.businessSection>div>img{
-    margin-left: 500px;
+
+.halfContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20%;
+    align-items: center;
+    width: 50%;
+
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+}
+.baseContainer{
+    display: block;
+}
+.textDiv{
+    margin-left: 0%;
+    margin-right: 20%;
 }

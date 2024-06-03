@@ -3,3 +3,7 @@
     font-size: 36px;
 
 }
+.mainContainer{
+    display: flex;
+
+}
