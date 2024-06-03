@@ -4,13 +4,13 @@ import youtube from '../../asset/youtube.png'
 import web from '../../asset/web.png'
 import send from '../../asset/send.png'
 import style from './index.module.css'
-import logo from "../../asset/logo.png"
+import arrow from "../../asset/arrow.jpg"
 const Footer = () => {
     return(
         <>
             <footer className={style.footer}>
                 <div>
-                    <img src={send}/>
+                    <img src={send} alt={""}/>
                     <p>Copyright © 2020 Nexcent ltd. <span style={{display: "block"}}>All rights reserved</span></p>
                     <div className={style.images}>
                         <img src={insta} alt={""}/>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <p>Stay up to date</p>
                         <label>
                             <input placeholder="Your email address" className={style.input}/>
-                            <img src={logo} className={style.image} alt={""}/>
+                            <img src={arrow} className={style.image} alt={""}/>
                         </label>
                     </div>
                 </div>
