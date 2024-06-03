@@ -25,4 +25,81 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 7%;
+    margin-bottom: 4%;
 }
+
+.buttonContainer button{
+    height: 40px;
+}
+/*.buttonText > p{*/
+/*    color: white;*/
+/*    background: #4caf4f;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    padding: 15px 30px;*/
+/*    margin-top: 30px;*/
+
+/*}*/
+.demo{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.thirdContainer > button{
+    color: white;
+    background: #4caf4f;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 30px;
+
+}
+
+.thirdContainer > p{
+    background: azure;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -30px;
+    position: relative;
+
+}
+.secondContainer > button{
+        color: white;
+        background: #4caf4f;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 30px;
+        margin-top: 30px;
+}
+
+.firstContainer > button{
+        color: white;
+        background: #4caf4f;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 30px;
+        margin-top: 30px;
+}
+
+.secondContainer > p{
+    background: azure;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -30px;
+    position: relative;
+
+}
+
+.thirdContainer > p {
+    background: azure;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -30px;
+    position: relative;
+
+}
+

@@ -1,13 +1,13 @@
-/*.mainContainer > h4{*/
-/*    color: darkgreen;*/
-/*}*/
+.baseContainer{
+    background-color: azure;
+}
+
+
 .imageContainer{
     display: flex;
     gap: 45px;
 }
-/*.imageContainer > p{*/
-/*    color: darkgreen;*/
-/*}*/
+
 .name{
     color: darkgreen;
 }

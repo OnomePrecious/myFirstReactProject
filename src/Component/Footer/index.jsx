@@ -2,15 +2,15 @@ import insta from '../../asset/insta.png'
 import twitter from '../../asset/twitter.png'
 import youtube from '../../asset/youtube.png'
 import web from '../../asset/web.png'
-import send from '../../asset/send.png'
+import home from '../../asset/logo.png'
 import style from './index.module.css'
-import arrow from "../../asset/arrow.jpg"
+import arrow from "../../asset/arrow.png"
 const Footer = () => {
     return(
         <>
             <footer className={style.footer}>
                 <div>
-                    <img src={send} alt={""}/>
+                    <img src={home} alt={""}/>
                     <p>Copyright © 2020 Nexcent ltd. <span style={{display: "block"}}>All rights reserved</span></p>
                     <div className={style.images}>
                         <img src={insta} alt={""}/>
