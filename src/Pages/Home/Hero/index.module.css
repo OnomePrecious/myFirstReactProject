@@ -11,7 +11,8 @@
     font-size: 45px;
 
 }
-@media screen and (max-width: 726px)
-.heroSection img{
-    display: none;
+@media screen and (max-width: 726px) {
+    .heroSection img {
+        display: none;
+    }
 }
